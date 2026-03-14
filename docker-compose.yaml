@@ -1,0 +1,9 @@
+services:
+  project_2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: project_2_container
+    ports:
+      - "8000:80"
+    restart: always
