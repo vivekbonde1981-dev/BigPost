@@ -5,5 +5,5 @@ services:
       dockerfile: Dockerfile
     container_name: project_2_container
     ports:
-      - "8000:80"
+      - "8001:80"
     restart: always
