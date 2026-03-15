@@ -4,6 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: project_2_container
+    
     ports:
       - "8001:80"
     restart: always
